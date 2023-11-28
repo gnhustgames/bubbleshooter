@@ -2,8 +2,20 @@
 <html>
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BTL6D79ZZ4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-BTL6D79ZZ4');
+    </script>
     <meta charset="utf-8">
-    <title>Bubble Shooter</title>
+    <title>Bubble Shooter - GNHUSTGames</title>
     <!-- Allow fullscreen mode on iOS devices. (These are Apple specific meta tags.) -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -21,24 +33,24 @@
             padding: 0;
             margin: 0;
         }
-
+        
         body {
             background-color: #175bbf;
         }
-
+        
         html,
         body {
             overflow: hidden;
             touch-action: none;
             -ms-touch-action: none;
         }
-
+        
         canvas {
             touch-action-delay: none;
             touch-action: none;
             -ms-touch-action: none;
         }
-
+        
         @font-face {
             font-family: 'poetsen';
             font-style: normal;
